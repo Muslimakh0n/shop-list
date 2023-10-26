@@ -18,14 +18,16 @@ const Header = () => {
                 placeholder="Search"
                 className="header_middle-input"
               />
-              <button type="submit">Search</button>
+              <button type="submit" className="header_middle-button">
+                Search
+              </button>
             </form>
           </div>
           <div className="header_right">
             <span className="saved_icon">
               <Saved />
             </span>
-            <h5>orders</h5>
+            <h5 className="order">orders</h5>
           </div>
         </div>
       </div>
